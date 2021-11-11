@@ -125,7 +125,7 @@ p{
 
 }
 .addressbox , .telbox{
-    padding: 20px 0 0 30px;
+    padding: 20px 20px 0 30px;
 }
 .addressbox p , .telbox p  {
     margin: 0;
