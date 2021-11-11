@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --blue:#50a4d0;
+    --btxt:#00749C;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+p{
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.topsec{
+    padding: 15px 0;
+}
+
+
+.cc{
+    display: flex;
+    justify-content: center;
+
+}
+.topspace{
+    margin: 65px 0 10px 0;
+}
+.topspace1{
+    margin: 25px 0 10px 0;
+}
+.imgbox img{
+    max-width: 320px;
+}
+.navlist{
+    background: var(--blue);
+    border-top-left-radius: 12px ;
+    border-top-right-radius: 12px ;
+    padding: 5px 10px;
+
+}
+.navlist .nav-item{
+    display: flex;    
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.navlist .nav-link{
+    list-style: none;
+    padding: 5px 10px;
+    color: #fff!important;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.rimgbox{
+    display: flex;
+    justify-content: flex-end;
+}
+.para:nth-child(1){
+    margin: 0px 0;
+
+}
+.para{
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--btxt);
+    margin: 20px 0;
+}
+.rimgbox img{
+    height: auto;
+    width: 100%;
+    max-width: 450px;
+} 
+.lastsec{
+    margin-bottom: 20px;
+}
+.navlistdown{
+    background: var(--blue);
+    border-bottom-left-radius: 12px ;
+    border-bottom-right-radius: 12px ;
+    padding: 15px 10px;
+
+}
+.navlistdown ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    padding: 2px 0;
+}
+
+
+.navlistdown ul li a{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 10px 0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navlistdown ul li {
+    list-style: none;
+}
+.pagetitle{
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: underline;
+    color:var(--btxt);
+}
+.contactbox{
+    border: 1px solid #00749C;
+    padding: 0 0px 20px 0px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.contactboxtitle{
+    font-size: 16px;
+    background: #00749C;
+    margin: 0;
+    padding: 5px 0 5px 20px;
+    color: #fff;
+
+}
+.addressbox , .telbox{
+    padding: 20px 0 0 30px;
+}
+.addressbox p , .telbox p  {
+    margin: 0;
+    font-size: 16px;
+    line-height: 30px;
+}
+.accordion-body ul li , ol li{
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1024px){
+    .navlist .nav-link{
+        font-size: 12px;
+    }
+    .contactbox{
+        height: auto;
+    }
+}
+
+@media(max-width:500px){
+    .navlistdown ul {
+        display: block;
+    }
+    .navlistdown ul li{
+        margin: 5px 0;
+    }
+    .topspace{
+        margin: 20px 0 10px;
+    }
+    .navlist .nav-link{
+        font-size: 14px;
+    }
+
+}
